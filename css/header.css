@@ -29,6 +29,16 @@
     font-weight: 700;
 }
 
+/* Ajustes no logo */
+.logo img {
+    max-width: 100%; /* Isso garante que a imagem não ultrapasse o tamanho do container */
+    height: auto;    /* Mantém a proporção da imagem */
+    max-height: 8rem; /* Ajuste o valor para o tamanho desejado, por exemplo, 50px */
+    width: auto;    /* Mantém a proporção da imagem */
+    max-width: 8rem; /* Ajuste o valor para o tamanho desejado, por exemplo, 50px */
+}
+
+
 .navbar a {
     font-size: 1.15rem;
     color: #fff;
@@ -57,7 +67,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 790px) {
     .icons {
         display: inline-flex;
     }
@@ -73,8 +83,7 @@
     #check:checked~.icons #close-icon {
         display: block;
     }
-
-
+    
     .navbar {
         position: absolute;
         top: 100%;
@@ -97,6 +106,6 @@
     }
 
     #check:checked~.navbar {
-        height: 14.4rem;
+        height: 16.6rem;
     }
 }

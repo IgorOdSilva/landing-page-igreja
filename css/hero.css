@@ -1,0 +1,92 @@
+.hero {
+    position: relative;
+    height: 100vh;
+    background-image: url('imagem-de-fundo.jpg'); /* Troque pela imagem que desejar */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.cta-button {
+    background-color: #0056b3;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.cta-button:hover {
+    background-color: #00408a;
+}
+
+/* Informações e Redes Sociais */
+.info-section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.info-section h2 {
+    margin-bottom: 20px;
+}
+
+.info-section p {
+    margin-bottom: 10px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #333;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #0056b3;
+}
+
+img {
+    width: 500px;
+}
+
+/* Responsividade */
+@media (max-width: 790px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1.2em;
+    }
+
+    .cta-button {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+}
