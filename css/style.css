@@ -9,5 +9,8 @@
 }
 
 body {
-    background-color: aqua;
+    background: url('../assets/image/background.jfif') no-repeat center center;
+    background-size: cover;
+    height: 100vh; /* Garantir que o body tenha altura total da tela */
+    margin: 0; /* Remover margens padrão */
 }
