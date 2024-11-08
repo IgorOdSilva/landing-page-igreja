@@ -9,17 +9,16 @@ let currentDate = new Date();
 
 // Defina os eventos específicos por data e os eventos recorrentes para quarta, sábado e domingo
 const events = {
-  "2024-11-10": { name: "- Confraternização", color: "#4caf50" },
-  "2024-11-15": { name: "- Reunião Importante", color: "#ff9800" },
-  "2024-12-01": { name: "- Início do Projeto X", color: "#2196f3" },
-  "2024-12-25": { name: "- Natal", color: "#f44336" },
+  "2024-11-10": { name: "- Confraternização", color: "#89AAE6" },
+  "2024-11-15": { name: "- Reunião Importante", color: "#89AAE6" },
+  "2024-12-25": { name: "- Natal", color: "#89AAE6" },
 };
 
 // Eventos recorrentes em dias da semana específicos
 const recurringEvents = {
-  3: { name: "Quarta-Feira | Culto de Oração - 20h", color: "#9c27b0" },  // Quarta-feira
-  6: { name: "Sábado | Culto de Louvor e Adoração - 18h", color: "#ff5722" },        // Sábado
-  0: { name: "Domingo | Culto de Louvor e Adoração - 18h", color: "#ff5722" },       // Domingo
+  3: { name: "Quarta-Feira | Culto de Oração - 20h", color: "#0471A6" },  // Quarta-feira
+  6: { name: "Sábado | Culto de Louvor e Adoração - 18h", color: "#3685B5" },        // Sábado
+  0: { name: "Domingo | Culto de Louvor e Adoração - 18h", color: "#3685B5" },       // Domingo
 };
 
 // Evento para o segundo sábado do mês

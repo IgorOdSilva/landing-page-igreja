@@ -47,7 +47,7 @@
     color: #000000;
   }
   .day.event {
-    background-color: #4caf50;
+    background-color: rgb(2, 27, 48);
     color: #fff;
   }
   .event-list {
