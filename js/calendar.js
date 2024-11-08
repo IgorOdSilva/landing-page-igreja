@@ -10,7 +10,6 @@ let currentDate = new Date();
 // Defina os eventos específicos por data e os eventos recorrentes para quarta, sábado e domingo
 const events = {
   "2024-11-10": { name: "- Confraternização", color: "#89AAE6" },
-  "2024-11-15": { name: "- Reunião Importante", color: "#89AAE6" },
   "2024-12-25": { name: "- Natal", color: "#89AAE6" },
 };
 
