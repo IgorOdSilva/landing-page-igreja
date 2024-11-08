@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/calendar.css">
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/footer.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -24,7 +25,7 @@
         <nav class="navbar">
             <a href="">Inicio</a>
             <a href="">Sobre Nós</a>
-            <a href="">Cultos</a>
+            <a href="calendar.html">Cultos</a>
             <a href="">Galeria</a>
             <a href="">Contato</a>
         </nav>
@@ -43,11 +44,41 @@
             </div>
         </section>
         <section class="sobre">
-
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facilis ipsum, ut illo optio minus assumenda quod, error, vero reiciendis provident blanditiis ducimus nostrum aliquam delectus aliquid magni numquam in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facilis ipsum, ut illo optio minus assumenda quod, error, vero reiciendis provident blanditiis ducimus nostrum aliquam delectus aliquid magni numquam in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facilis ipsum, ut illo optio minus assumenda quod, error, vero reiciendis provident blanditiis ducimus nostrum aliquam delectus aliquid magni numquam in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facilis ipsum, ut illo optio minus assumenda quod, error, vero reiciendis provident blanditiis ducimus nostrum aliquam delectus aliquid magni numquam in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facilis ipsum, ut illo optio minus assumenda quod, error, vero reiciendis provident blanditiis ducimus nostrum aliquam delectus aliquid magni numquam in.</p>
+            
         </section>
 
         <section class="cultos">
-
+            <div class="container-calendar">
+                <div class="calendar">
+                  <div class="header-calendar">
+                    <button id="prevMonth">Anterior</button>
+                    <h2 id="monthYear"></h2>
+                    <button id="nextMonth">Próximo</button>
+                  </div>
+                  <!-- Cabeçalho com os dias da semana -->
+                  <div class="weekdays">
+                    <div class="name_weekdays">Dom</div>
+                    <div class="name_weekdays">Seg</div>
+                    <div class="name_weekdays">Ter</div>
+                    <div class="name_weekdays">Qua</div>
+                    <div class="name_weekdays">Qui</div>
+                    <div class="name_weekdays">Sex</div>
+                    <div class="name_weekdays">Sáb</div>
+                  </div>
+                  <div class="days" id="days"></div>
+                </div>
+            
+                <!-- Seção para exibir a lista de eventos -->
+                <div class="event-list">
+                  <h3>Eventos</h3>
+                  <ul id="eventList"></ul>
+                </div>
+              </div>
         </section>
 
         <section class="galeria">
@@ -109,5 +140,6 @@
             </div>
         </div>
    </footer>
+   <script src="js/calendar.js"></script>
 </body>
 </html>

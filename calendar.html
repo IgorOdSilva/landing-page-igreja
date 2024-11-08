@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="assets/image/logo-tranparente.png" alt=""></a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+        <nav class="navbar">
+            <a href="">Inicio</a>
+            <a href="">Sobre Nós</a>
+            <a href="calendar.html">Cultos</a>
+            <a href="">Galeria</a>
+            <a href="">Contato</a>
+        </nav>
+    </header>
+    <div class="container-calendar">
+        <div class="calendar">
+          <div class="header-calendar">
+            <button id="prevMonth">Anterior</button>
+            <h2 id="monthYear"></h2>
+            <button id="nextMonth">Próximo</button>
+          </div>
+          <!-- Cabeçalho com os dias da semana -->
+          <div class="weekdays">
+            <div>Dom</div>
+            <div>Seg</div>
+            <div>Ter</div>
+            <div>Qua</div>
+            <div>Qui</div>
+            <div>Sex</div>
+            <div>Sáb</div>
+          </div>
+          <div class="days" id="days"></div>
+        </div>
+    
+        <!-- Seção para exibir a lista de eventos -->
+        <div class="event-list">
+          <h3>Eventos</h3>
+          <ul id="eventList"></ul>
+        </div>
+      </div>
+      <script src="js/calendar.js"></script>
+</body>
+</html>

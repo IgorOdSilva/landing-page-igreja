@@ -19,6 +19,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.423);
     backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px); /* Para o Safari */
     z-index: -1;
 }
 
