@@ -93,6 +93,7 @@
         height: 0;
         background-color: rgba(0, 0, 0, .1);
         backdrop-filter: blur(50px);
+        -webkit-backdrop-filter: blur(50px); /* Para o Safari */
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
         transition: .3s ease;
         overflow: hidden;
