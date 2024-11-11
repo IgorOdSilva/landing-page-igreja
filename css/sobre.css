@@ -65,7 +65,7 @@
   /* Responsividade para celulares */
   @media (max-width: 480px) {
     .image-section {
-      height: 300px; /* reduz a altura da imagem para telas menores */
+      height: 500px; /* reduz a altura da imagem para telas menores */
     }
   
     .card-container {
